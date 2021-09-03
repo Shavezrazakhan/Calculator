@@ -58,25 +58,6 @@ b2=new JButton("-");
 		number[i].setFont(ff);
 		number[i].setFocusable(false);
 	}
-//	b9=new JButton("9");
-//	b10=new JButton("0");
-//	b11=new JButton("+");
-//	b12=new JButton("-");
-//	b13=new JButton("*");
-//	b14=new JButton("/");
-//	b15=new JButton("=");
-
-//j1.setBounds(130, 30, 200, 20);
-//	j2.setBounds(100, 50, 200, 20);
-	
-//	j3.setBounds(100, 90, 200, 20);
-//	t2.setBounds(220, 90, 100, 20);
-//	b1.setBounds(20, 60, 20, 20);
-//	b2.setBounds(50, 60, 20, 20);
-//	b3.setBounds(80, 60, 20, 20);
-//	b4.setBounds(110, 130, 20,20);
-//	b5.setBounds(110, 130, 20, 20);
-//	b6.setBounds(110, 130, 20, 20);
 	b7.setBounds(50, 400, 120, 40);
 	jf.add(b7);
 	b8.setBounds(170, 400, 105, 40);
@@ -106,39 +87,21 @@ b2=new JButton("-");
 	panel.add(b6);
 	jf.add(panel);
 	jf.add(b9);
-	//	b9.setBounds(110, 130, 20, 20);
-//	b10.setBounds(110, 130, 20, 20);
-//	b11.setBounds(110, 130, 30, 30);
-//	b12.setBounds(110, 130, 30, 30);
-//	b13.setBounds(110, 130, 30, 30);
-//	b14.setBounds(110, 130, 30, 30);
-//	b15.setBounds(110, 130, 30, 30);
-//	b16.setBounds(110, 130, 30, 30);
-//	j4.setBounds(100, 180, 200, 30);
-//	b1.addActionListener(new Handler());
 
-//	add(j2);
-//	add(t1);
-//	add(j3);
-//	add(t2);
-//	add(b1);
-//	add(j4);
 	}
 	class Handler implements ActionListener{
 
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			int a=Integer.parseInt(t1.getText());
-		//	int b=Integer.parseInt(t2.getText());
-		//	int s=a+b;
-		//	j4.setText("result is :"+s);
+		
 		}
 		
 	}
 	public static void main(String[] args) {
 
 Calculator1 sw=new Calculator1();
-//sw.setComponent();
+
 
 	}
 	@Override
